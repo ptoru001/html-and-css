@@ -1,0 +1,17 @@
+tr{
+    border: hidden;
+}
+img {
+  max-width: 100%;
+}
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+#comp_table table, #comp_table thead,#comp_table tbody,#comp_table th,#comp_table td,#comp_table tr {
+    display: block;
+}
+}
+#navbar_title{
+    padding-left: 10px;
+    background-color: teal;
+}

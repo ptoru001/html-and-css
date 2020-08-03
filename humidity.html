@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Visualization Dashboard</title>
+        <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color: #e6fffa;">
+    <nav class="navbar navbar-default" style="background-color:white;">
+            <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header" id="navbar_title">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html" style="color:white;">Lattitude</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="max_temp.html">Max Temperature</a></li>
+                            <li><a href="humidity.html">Humidity</a></li>
+                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                            <li><a href="wind_speed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="comparisions.html">Comparision</a></li>
+                    <li><a href="data.html">Data</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="width:90%">
+        <div class="row">
+            <div class="col-md-6" style="background-color:white;">
+                <h1 style="color:teal; padding-top:5%">Humidity</h1>
+                <hr>
+                <div id="texts">
+                <p style="color:black; margin-top: 10px;margin-left: 10px; margin-bottom: 10px;  font-size: 120%;">
+      <img src="images/2.jpeg" style="display:block;" /> Here is my content, I am writting more than I need to show how the paragraph looks when it takes more than one line. Wouldn't
+      it be nice if the text stayed together when an image was included. Here is some more text purely for testing nothing interesting to read here other than some typo's. Here is my content, I am writting more than I need to show how the paragraph looks when it takes more than one line. Wouldn't
+      it be nice if the text stayed together when an image was included. Here is some more text purely for testing nothing interesting to read here other than some typo's. Here is my content, I am writting more than I need to show how the paragraph looks when it takes more than one line. Wouldn't
+      it be nice if the text stayed together when an image was included. Here is some more text purely for testing nothing interesting to read here other than some typo's.
+    </p>
+  </div>
+            </div>
+            <div class="col-md-5 col-md-offset-1" style="background-color:white;">
+                <h2 style="color:teal; padding-top:5%">Visualizations</h3>
+                <hr>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                          <td >
+                              <a href="max_temp.html">
+                              <img src="images/1.jpeg" href="max_temp.html"></td>
+                          <td>
+                              <a href="humidity.html">
+                              <img src="images/2.jpeg" style="border:1px solid black;"></td>
+                        </tr>
+                        <tr>
+                          <td>
+                               <a href="cloudiness.html">
+                              <img src="images/3.jpeg"></td>
+                          <td>
+                              <a href="wind_speed.html">
+                              <img src="images/4.jpeg"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</body>
+</html>
